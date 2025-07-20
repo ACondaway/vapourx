@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="section container py-5">
+  <div class="row">
+    {{ $pages := where .Pages "Draft" false }}
+    {{ if gt (len $pages) 0 }}
+      {{ range $pages.ByDate.Reverse }}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          {{ with .Params.cover.image }}
+            <img src="{{ . | relURL }}" class="card-img-top" alt="{{ $.Params.cover.alt | default $.Title }}">
+          {{ end }}
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text">{{ .Summary | default .Description }}</p>
+            <div class="card-footer bg-transparent">
+              <small class="text-muted">{{ .Date.Format "2006-01-02" }}</small>
+            </div>
+            <a href="{{ .RelPermalink }}" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    {{ else }}
+      <div class="col-12 text-center">
+        <p class="text-muted">暂无博客文章</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
