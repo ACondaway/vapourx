@@ -1,1 +1,52 @@
 // Put your custom SCSS code here
+
+// 修复页面标题位置过高被header遮挡的问题
+.page-heading {
+  margin-top: 2rem !important;
+  padding-top: 1rem !important;
+}
+
+// 修复页面内容只在左半边显示的问题
+.page-content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+// 确保页面容器有足够的宽度
+.container-fluid {
+  max-width: 100% !important;
+}
+
+// 修复文章内容的布局
+.article-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+// 确保主要内容区域有正确的间距
+main {
+  padding-top: 2rem !important;
+}
+
+// 修复页面标题的间距
+h1.page-title {
+  margin-top: 3rem !important;
+  padding-top: 1rem !important;
+}
+
+// 确保内容区域有足够的右边距
+.content {
+  margin-right: 2rem !important;
+}
+
+// 修复移动端显示问题
+@media (max-width: 768px) {
+  .page-content {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  main {
+    padding-top: 1rem !important;
+  }
+}
