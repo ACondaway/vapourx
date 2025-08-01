@@ -50,3 +50,27 @@ h1.page-title {
     padding-top: 1rem !important;
   }
 }
+
+// 确保logo正确显示
+.navbar-brand img {
+  display: inline-block !important;
+  height: 32px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
+
+// 确保brand logo显示
+.brand img {
+  display: inline-block !important;
+  height: 32px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
+
+// 修复navbar logo显示
+.navbar .brand img {
+  display: inline-block !important;
+  height: 32px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
