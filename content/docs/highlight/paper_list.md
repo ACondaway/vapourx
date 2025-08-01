@@ -20,7 +20,7 @@ seo:
 
 **ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills**
 
-{{< figure src="./images/papers/ASAP.png" alt="ASAP" caption="ASAP teaser" width="300" >}}
+{{< figure src="images/papers/ASAP.png" alt="ASAP" caption="ASAP teaser" width="300" >}}
 
 **arXiv Link:** [ASAP Paper](https://arxiv.org/pdf/2502.01143)
 
@@ -30,7 +30,7 @@ seo:
 
 **TWIST: Teleoperated Whole-Body Imitation System**
 
-{{< figure src="/images/papers/TWIST.png" alt="TWIST" caption="TWIST Teaser" width="300" >}}
+{{< figure src="images/papers/TWIST.png" alt="TWIST" caption="TWIST Teaser" width="300" >}}
 
 **arXiv Link:** [TWIST Paper](https://arxiv.org/pdf/2505.02833)
 
@@ -42,7 +42,7 @@ seo:
 
 **OpenVLA: An Open-Source Vision-Language-Action Model**
 
-{{< figure src="./images/papers/Open-VLA.png" alt="Open-VLA" caption="OpenVLA teaser" width="300" >}}
+<!-- Open-VLA image removed as file doesn't exist -->
 
 **arXiv Link:** [Open-VLA Paper](https://arxiv.org/pdf/2406.09246)
 
@@ -52,7 +52,7 @@ seo:
 
 **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation**
 
-{{< figure src="./images/papers/RDT.png" alt="RDT" caption="RDT teaser" width="300" >}}
+{{< figure src="images/papers/RDT.png" alt="RDT" caption="RDT teaser" width="300" >}}
 
 **arXiv Link:** [RDT Paper](https://arxiv.org/pdf/2410.07864)
 
@@ -62,7 +62,7 @@ seo:
 
 **π0: A Vision-Language-Action Flow Model for General Robot Control**
 
-{{< figure src="./images/papers/pi0.png" alt="pi0" caption="pi0 teaser" width="300" >}}
+{{< figure src="images/papers/pi0.png" alt="pi0" caption="pi0 teaser" width="300" >}}
 
 **arXiv Link:** [π0 Paper](https://arxiv.org/pdf/2410.24164v1)
 
@@ -74,7 +74,7 @@ seo:
 
 **RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning**
 
-{{< figure src="./images/papers/RoboVerse.png" alt="rbv" caption="RoboVerse teaser" width="300" >}}
+{{< figure src="images/papers/RoboVerse.png" alt="rbv" caption="RoboVerse teaser" width="300" >}}
 
 **arXiv Link:** [RoboVerse Paper](https://arxiv.org/pdf/2504.18904)
 
