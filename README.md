@@ -48,11 +48,7 @@ Visit our website: [VapourX Open Forum](https://acondaway.github.io/vapourx/)
         </a>
         <br />
         <sub>VapourX主理人/SJTU</sub>
-        <br />
-        <sub>目前是个人类。</sub>
       </td>
-    </tr>
-    <tr>
       <td align="center">
         <a href="https://github.com/10-OASIS-01">
           <img src="https://avatars.githubusercontent.com/u/125074201?v=4" width="100px;" alt="OASIS"/>
@@ -62,8 +58,6 @@ Visit our website: [VapourX Open Forum](https://acondaway.github.io/vapourx/)
         <br />
         <sub>VapourX元老/NEU</sub>
       </td>
-    </tr>
-    <tr>
       <td align="center">
         <a href="https://github.com/VioletEvar">
           <img src="https://avatars.githubusercontent.com/u/113980234?v=4" width="100px;" alt="Violet"/>
