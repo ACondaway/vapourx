@@ -18,13 +18,10 @@
 {{ end -}}
 
   <!-- Site title with logo -->
-  {{ range .Site.Menus.brand }}
-  <a class="navbar-brand me-auto me-lg-3" href="{{ .URL | absURL }}">
-    {{ .Pre | safeHTML }}{{ .Name }}
+  <a class="navbar-brand me-auto me-lg-3" href="{{ relLangURL "" }}">
+    <img src="/vapourx-logo-trans.png" alt="VapourX Logo" style="height: 32px; width: auto; display: inline-block; vertical-align: middle;">
+    <span class="ms-2">{{ .Site.Title }}</span>
   </a>
-  {{ else }}
-  <a class="navbar-brand me-auto me-lg-3" href="{{ relLangURL "" }}">{{ .Site.Title }}</a>
-  {{ end }}
 
   <!-- FlexSearch mobile -->
   {{ partial "main/showFlexSearch" . }}
