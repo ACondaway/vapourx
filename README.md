@@ -9,26 +9,17 @@
     <a href="https://github.com/ACondaway/vapourx/stargazers">
       <img src="https://img.shields.io/github/stars/ACondaway/vapourx?style=social" alt="GitHub stars">
     </a>
-    <a href="https://github.com/ACondaway/vapourx/network/members">
-      <img src="https://img.shields.io/github/forks/ACondaway/vapourx?style=social" alt="GitHub forks">
-    </a>
-    <a href="https://github.com/ACondaway/vapourx/issues">
-      <img src="https://img.shields.io/github/issues/ACondaway/vapourx" alt="GitHub issues">
-    </a>
-    <a href="https://github.com/ACondaway/vapourx/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/ACondaway/vapourx" alt="License">
-    </a>
   </p>
 </div>
 
 
 
 
-## 我们正在做的
+## 🚀我们正在做的
 
 VapourX 正在汇聚一群对具身智能充满热情的爱好者、专业人士和研究人员，致力于推动人类、数字人和机器人之间的自然交互，促使具身智能从研究走向现实，在产业与创新中实现无缝演进与深远影响。
 
-## 你可以得到
+## 🪐你可以得到的
 
 - 高光论文分类整理
 - 来自我们每一位社区共建者的Blog
@@ -38,14 +29,14 @@ VapourX 正在汇聚一群对具身智能充满热情的爱好者、专业人士
 
 Visit our website: [VapourX Open Forum](https://acondaway.github.io/vapourx/)
 
-## 欢迎加入建设
+## 🏋️欢迎加入建设
 
 联系我们来加入共建团队，我们追求所有热爱具身智能的伙伴！
 
 ## 👥 Community Contributors
 
 <div align="center">
-  <h3>我们的核心团队</h3>
+  <h3>小伙伴们</h3>
 
   <table>
     <tr>
@@ -56,7 +47,7 @@ Visit our website: [VapourX Open Forum](https://acondaway.github.io/vapourx/)
           <sub><b>ACondaway</b></sub>
         </a>
         <br />
-        <sub>VapourX主理人</sub>
+        <sub>VapourX主理人/SJTU</sub>
       </td>
     </tr>
   </table>
@@ -80,11 +71,8 @@ Visit our website: [VapourX Open Forum](https://acondaway.github.io/vapourx/)
 ## 📊 GitHub Star History
 
 <div align="center">
-  <img src="https://api.star-history.com/svg?repos=ACondaway/vapourx&type=Date" alt="GitHub Star History Chart" width="100" height="auto" style="max-width: 100%; height: auto;">
+  <img src="https://api.star-history.com/svg?repos=ACondaway/vapourx&type=Date" alt="GitHub Star History Chart" width="300" height="auto" style="max-width: 100%; height: auto;">
 </div>
 
-<div align="center">
-  <p>Made with ❤️ by the VapourX Community</p>
-</div>
 
 
