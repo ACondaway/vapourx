@@ -6,7 +6,10 @@
   <div class="row justify-content-center" style="position: relative; z-index: 2;">
     <div class="col-lg-12 text-center">
       <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-weight: bold; margin-bottom: 2rem;">{{ .Title }}</h1>
-      <img src="{{ "vapourx-logo-trans.png" | relURL }}" alt="VapourX Logo" style="max-width: 300px; height: auto; margin-bottom: 2rem; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));">
+      <img src="{{ "vapourx-logo-trans.png" | relURL }}" alt="VapourX Logo" style="max-width: 300px; height: auto; margin-bottom: 1rem; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));">
+      <div class="slogan-container" style="margin-bottom: 2rem;">
+        <p class="slogan-text" style="color: white; font-weight: bold; font-style: italic; font-size: 1.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); margin: 0; animation: sloganGlow 3s ease-in-out infinite;">“人机合一，化具象为抽象”</p>
+      </div>
     </div>
   </div>
 
@@ -65,6 +68,28 @@
     @keyframes float {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-10px); }
+    }
+
+    /* Slogan animation */
+    @keyframes sloganGlow {
+      0%, 100% {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 10px rgba(255,255,255,0.3);
+        transform: scale(1);
+      }
+      50% {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(255,255,255,0.6), 0 0 30px rgba(255,255,255,0.4);
+        transform: scale(1.05);
+      }
+    }
+
+    .slogan-text {
+      transition: all 0.3s ease-in-out;
+    }
+
+    .slogan-text:hover {
+      animation-play-state: paused;
+      transform: scale(1.1) !important;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 25px rgba(255,255,255,0.8) !important;
     }
 
     /* Card hover effects */
