@@ -12,7 +12,7 @@ mainSections = ["docs", "blog"]
 # Doks (@thulite/doks-core)
 [doks]
   # Logo configuration
-  logo = "vapourx-clean.jpg"
+  logo = "vapourx-logo-trans.png"
   logoHeight = "32px"
 
   # Color mode

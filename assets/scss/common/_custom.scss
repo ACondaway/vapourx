@@ -74,3 +74,21 @@ h1.page-title {
   width: auto !important;
   vertical-align: middle !important;
 }
+
+// 确保header logo正确显示
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar-brand img {
+  max-height: 32px !important;
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+// 确保brand logo在所有主题下都可见
+.brand img {
+  filter: none !important;
+  opacity: 1 !important;
+}
