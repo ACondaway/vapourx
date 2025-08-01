@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%); min-height: 100vh; position: relative;">
+<section class="section container-fluid" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%); height: 100vh; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
   <!-- Animated background overlay -->
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 25%, rgba(240, 147, 251, 0.1) 50%, rgba(79, 172, 254, 0.1) 75%, rgba(0, 242, 254, 0.1) 100%); animation: gradientShift 8s ease-in-out infinite;"></div>
 
@@ -16,7 +16,18 @@
   <!-- Cards Section -->
   {{ if eq $.Site.Language.LanguageName "English" }}
   <div class="row justify-content-center text-center" style="position: relative; z-index: 2; margin-top: 3rem;">
-    <div class="col-lg-5 mb-4">
+    <div class="col-lg-4 mb-4">
+      <a href="/home/about/what-is-vapourx/" class="text-decoration-none">
+        <div class="card h-100 border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
+          <div class="card-body text-center p-4">
+            <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Intro</h2>
+            <p class="text-white mb-0" style="opacity: 0.9;">了解VapourX项目。</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 mb-4">
       <a href="/vapourx/blog/" class="text-decoration-none">
         <div class="card h-100 border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
           <div class="card-body text-center p-4">
@@ -27,7 +38,7 @@
       </a>
     </div>
 
-    <div class="col-lg-5 mb-4">
+    <div class="col-lg-4 mb-4">
       <a href="/vapourx/docs/" class="text-decoration-none">
         <div class="card h-100 border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
           <div class="card-body text-center p-4">
@@ -90,6 +101,21 @@
       animation-play-state: paused;
       transform: scale(1.1) !important;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 25px rgba(255,255,255,0.8) !important;
+    }
+
+    /* Prevent scrolling */
+    html, body {
+      overflow: hidden !important;
+      height: 100vh !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    /* Ensure full screen layout */
+    .section {
+      min-height: 100vh !important;
+      height: 100vh !important;
+      overflow: hidden !important;
     }
 
     /* Card hover effects */
