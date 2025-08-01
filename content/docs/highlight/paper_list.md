@@ -124,15 +124,45 @@ seo:
 
 ## 仿真平台和基准
 
+**RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins**
+
+{{< figure src="images/papers/rbt.png" alt="rbt" caption="RoboTwin teaser" width="300" >}}
+
+**arXiv Link:** [RoboTwin Paper](https://arxiv.org/pdf/2409.02920)
+
+**Description:** 最佳仿真平台。
+
+---
+
+**RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation**
+
+{{< figure src="images/papers/rbt2.png" alt="rbt2，0" caption="RoboTwin2.0 teaser" width="300" >}}
+
+**arXiv Link:** [RoboTwin2.0 Paper](https://arxiv.org/pdf/2506.18088)
+
+**Description:** 最佳仿真平台升级版。
+
+---
+
+**RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**
+
+{{< figure src="images/papers/robocasa.png" alt="robocasa，0" caption="RoboCasa teaser" width="300" >}}
+
+**arXiv Link:** [RoboCasa Paper](https://arxiv.org/pdf/2406.02523)
+
+**Description:** 最佳仿真平台升级版。
+
+
+
+
 **RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning**
 
 {{< figure src="images/papers/RoboVerse.png" alt="rbv" caption="RoboVerse teaser" width="300" >}}
 
 **arXiv Link:** [RoboVerse Paper](https://arxiv.org/pdf/2504.18904)
 
-**Description:** 最全面的仿真平台集成。
+**Description:** 仿真平台集成。
 
 *Last updated: Aug 2025*
 
-*Keep Updated at [VapourX-Highlight-Paper](https://acondaway.github.io/vapourx/docs/highlight/paper-list/)*
 
