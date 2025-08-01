@@ -1,4 +1,8 @@
+<div align="center">
+
 # VapourX Open Forum
+
+</div>
 
 <div align="center">
   <img src="assets/vapourx-logo.png" alt="VapourX Logo" width="200" height="auto">
