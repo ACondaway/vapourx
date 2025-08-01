@@ -6,7 +6,7 @@ date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 weight: 810
-toc: true
+toc: false
 layout: "single"
 slug: "what-is-vapourx"
 seo:
@@ -16,7 +16,9 @@ seo:
   noindex: false # false (default) or true
 ---
 
-VapourX is uniting a passionate community of embodied intelligence enthusiasts, professionals, and researchers to pioneer natural interaction among humans, digital humans, and robots — driving the seamless evolution of embodied intelligence from research to real-world impact across industry and innovation.
+# 关于 VapourX
+
+VapourX 正在汇聚一群对具身智能充满热情的爱好者、专业人士和研究人员，致力于推动人类、数字人和机器人之间的自然交互，促使具身智能从研究走向现实，在产业与创新中实现无缝演进与深远影响。
 
 ## 👥 社区小伙伴
 
@@ -62,15 +64,6 @@ VapourX is uniting a passionate community of embodied intelligence enthusiasts, 
 
 </div>
 
-### 我们的使命
-
-我们致力于：
-- 🎯 **论文整理**: 精选具身智能领域的高质量研究论文
-- 📝 **知识分享**: 通过博客记录学习心得和技术见解
-- 🤝 **社区建设**: 汇聚对具身智能充满热情的伙伴
-- 🌟 **创新推动**: 促进具身智能从研究到应用的转化
-
-### 加入我们
 
 如果你对具身智能充满热情，欢迎加入我们的社区！
 
