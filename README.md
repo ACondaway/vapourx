@@ -44,10 +44,34 @@ Visit our website: [VapourX Open Forum](https://acondaway.github.io/vapourx/)
         <a href="https://github.com/ACondaway">
           <img src="https://avatars.githubusercontent.com/ACondaway?v=4" width="100px;" alt="ACondaway"/>
           <br />
-          <sub><b>ACondaway</b></sub>
+          <sub><b>ACondaway（徐聪晟）</b></sub>
         </a>
         <br />
         <sub>VapourX主理人/SJTU</sub>
+        <br />
+        <sub>目前是个人类。</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/10-OASIS-01">
+          <img src="https://avatars.githubusercontent.com/u/125074201?v=4" width="100px;" alt="OASIS"/>
+          <br />
+          <sub><b>OASIS（刘艺彬）</b></sub>
+        </a>
+        <br />
+        <sub>VapourX元老/NEU</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/VioletEvar">
+          <img src="https://avatars.githubusercontent.com/u/113980234?v=4" width="100px;" alt="Violet"/>
+          <br />
+          <sub><b>Violet（刘伊天）</b></sub>
+        </a>
+        <br />
+        <sub>VapourX元老/SJTU</sub>
       </td>
     </tr>
   </table>
