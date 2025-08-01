@@ -16,38 +16,38 @@
   <!-- Cards Section -->
   {{ if eq $.Site.Language.LanguageName "English" }}
   <div class="row justify-content-center text-center" style="position: relative; z-index: 2; margin-top: 3rem;">
-    <div class="col-lg-3 mb-4">
-      <a href="/vapourx/home/about/what-is-vapourx/" class="text-decoration-none">
-        <div class="card border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; min-height: 180px;">
-          <div class="card-body text-center p-4">
-            <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-size: 1.2rem;">Intro</h2>
-            <p class="text-white mb-0" style="opacity: 0.9; font-size: 0.9rem; white-space: nowrap;">加入我们！</p>
+          <div class="col-lg-3 mb-4">
+        <a href="/vapourx/home/about/what-is-vapourx/" class="text-decoration-none">
+          <div class="card border-0 shadow-lg gradient-card square-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
+            <div class="card-body text-center p-4 d-flex flex-column justify-content-center">
+              <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-size: 1.2rem;">Intro</h2>
+              <p class="text-white mb-0" style="opacity: 0.9; font-size: 0.9rem; white-space: nowrap;">加入我们！</p>
+            </div>
           </div>
-        </div>
-      </a>
-    </div>
+        </a>
+      </div>
 
-    <div class="col-lg-3 mb-4">
-      <a href="/vapourx/blog/" class="text-decoration-none">
-        <div class="card border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; min-height: 180px;">
-          <div class="card-body text-center p-4">
-            <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-size: 1.2rem;">Daily Blog</h2>
-            <p class="text-white mb-0" style="opacity: 0.9; font-size: 0.9rem; white-space: nowrap;">共同进化！</p>
+          <div class="col-lg-3 mb-4">
+        <a href="/vapourx/blog/" class="text-decoration-none">
+          <div class="card border-0 shadow-lg gradient-card square-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
+            <div class="card-body text-center p-4 d-flex flex-column justify-content-center">
+              <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-size: 1.2rem;">Daily Blog</h2>
+              <p class="text-white mb-0" style="opacity: 0.9; font-size: 0.9rem; white-space: nowrap;">共同进化！</p>
+            </div>
           </div>
-        </div>
-      </a>
-    </div>
+        </a>
+      </div>
 
-    <div class="col-lg-3 mb-4">
-      <a href="/vapourx/docs/" class="text-decoration-none">
-        <div class="card border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; min-height: 180px;">
-          <div class="card-body text-center p-4">
-            <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-size: 1.2rem;">Papers</h2>
-            <p class="text-white mb-0" style="opacity: 0.9; font-size: 0.9rem; white-space: nowrap;">论文收录！</p>
+          <div class="col-lg-3 mb-4">
+        <a href="/vapourx/docs/" class="text-decoration-none">
+          <div class="card border-0 shadow-lg gradient-card square-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
+            <div class="card-body text-center p-4 d-flex flex-column justify-content-center">
+              <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-size: 1.2rem;">Papers</h2>
+              <p class="text-white mb-0" style="opacity: 0.9; font-size: 0.9rem; white-space: nowrap;">论文收录！</p>
+            </div>
           </div>
-        </div>
-      </a>
-    </div>
+        </a>
+      </div>
   </div>
   {{ end }}
 
@@ -135,6 +135,14 @@
       min-height: 100vh !important;
       height: 100vh !important;
       overflow: hidden !important;
+    }
+
+    /* Square card styles */
+    .square-card {
+      aspect-ratio: 1 !important;
+      width: 100% !important;
+      height: auto !important;
+      min-height: unset !important;
     }
 
     /* Card hover effects */
@@ -225,8 +233,13 @@
       }
 
       .card {
-        min-height: 140px !important;
         margin: 0 0.25rem !important;
+      }
+
+      .square-card {
+        aspect-ratio: 1 !important;
+        width: 100% !important;
+        height: auto !important;
       }
 
       .card-body {
@@ -283,7 +296,13 @@
       }
 
       .card {
-        min-height: 120px !important;
+        /* Square cards maintain aspect ratio */
+      }
+
+      .square-card {
+        aspect-ratio: 1 !important;
+        width: 100% !important;
+        height: auto !important;
       }
 
       .card-body {
