@@ -1,15 +1,59 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3">
-  <div class="row justify-content-center">
+<section class="section container-fluid mt-n3 pb-3" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%); min-height: 100vh; position: relative;">
+  <!-- Animated background overlay -->
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 25%, rgba(240, 147, 251, 0.1) 50%, rgba(79, 172, 254, 0.1) 75%, rgba(0, 242, 254, 0.1) 100%); animation: gradientShift 8s ease-in-out infinite;"></div>
+
+  <div class="row justify-content-center" style="position: relative; z-index: 2;">
     <div class="col-lg-12 text-center">
-      <h1>{{ .Title }}</h1>
-    <!-- </div>
-    <div class="col-lg-9 col-xl-8 text-center">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">{{ i18n "get_started" }}</a>
-      {{ .Content }}
+      <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-weight: bold; margin-bottom: 2rem;">{{ .Title }}</h1>
+      <div class="content-wrapper" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 2rem; margin: 2rem 0; border: 1px solid rgba(255, 255, 255, 0.2);">
+        {{ .Content }}
+      </div>
     </div>
-  </div> -->
+  </div>
+
+    <style>
+    @keyframes gradientShift {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.7; }
+    }
+
+    .section {
+      overflow: hidden;
+    }
+
+    /* Floating particles effect */
+    .section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image:
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      33% { transform: translateY(-20px) rotate(120deg); }
+      66% { transform: translateY(10px) rotate(240deg); }
+    }
+
+    /* Card hover effects */
+    .gradient-card {
+      transition: all 0.3s ease-in-out;
+    }
+
+    .gradient-card:hover {
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      background: rgba(255, 255, 255, 0.25) !important;
+    }
+  </style>
 </section>
 {{ end }}
 
@@ -20,19 +64,19 @@
   </div>
   {{ end -}}
   {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-md section-features">
-    <div class="container">
+  <section class="section section-md section-features" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%); position: relative; overflow: hidden;">
+    <!-- Animated background overlay -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 25%, rgba(240, 147, 251, 0.1) 50%, rgba(79, 172, 254, 0.1) 75%, rgba(0, 242, 254, 0.1) 100%); animation: gradientShift 8s ease-in-out infinite;"></div>
+
+    <div class="container" style="position: relative; z-index: 2;">
       <div class="row justify-content-center text-center">
 
         <div class="col-lg-5 mb-4">
           <a href="/vapourx/blog/" class="text-decoration-none">
-            <div class="card h-100 border-0 shadow-sm bg-light bg-opacity-75 dark:bg-dark dark:bg-opacity-75
-                        hover:shadow-lg hover:scale-[1.03] hover:-translate-y-1
-                        hover:ring-2 hover:ring-blue-300 hover:bg-opacity-90
-                        transition-all duration-300 ease-in-out transform">
+            <div class="card h-100 border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
               <div class="card-body text-center p-4">
-                <h2 class="h4 text-dark dark:text-light mb-3">Daily Blog</h2>
-                <p class="text-muted dark:text-light-muted mb-0">每日具身/AIGC学习记录。</p>
+                <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Daily Blog</h2>
+                <p class="text-white mb-0" style="opacity: 0.9;">每日具身/AIGC学习记录。</p>
               </div>
             </div>
           </a>
@@ -41,13 +85,10 @@
 
         <div class="col-lg-5 mb-4">
           <a href="/vapourx/docs/" class="text-decoration-none">
-            <div class="card h-100 border-0 shadow-sm bg-light bg-opacity-75 dark:bg-dark dark:bg-opacity-75
-                        hover:shadow-lg hover:scale-[1.03] hover:-translate-y-1
-                        hover:ring-2 hover:ring-blue-300 hover:bg-opacity-90
-                        transition-all duration-300 ease-in-out transform">
+            <div class="card h-100 border-0 shadow-lg gradient-card" style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px;">
               <div class="card-body text-center p-4">
-                <h2 class="h4 text-dark dark:text-light mb-3">Exciting Paper</h2>
-                <p class="text-muted dark:text-light-muted mb-0">优质论文解读。</p>
+                <h2 class="h4 text-white mb-3" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Exciting Paper</h2>
+                <p class="text-white mb-0" style="opacity: 0.9;">优质论文解读。</p>
               </div>
             </div>
           </a>
