@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/vapourx-logo.png" alt="VapourX Logo" width="200" height="auto">
+  <img src="assets/vapourx-clean.jpg" alt="VapourX Logo" width="200" height="auto">
 
   <p><strong>人机合一，化具象为抽象</strong></p>
 
