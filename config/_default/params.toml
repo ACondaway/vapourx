@@ -129,8 +129,8 @@ mainSections = ["docs", "blog"]
   [seo.favicons]
     sizes = []
     icon = "vapourx-logo.png" # vapourx-logo.png
-    svgIcon = "" # favicon.svg (default)
-    maskIcon = "" # mask-icon.svg (default)
+    svgIcon = ""
+    maskIcon = ""
     maskIconColor = "white" # white (default)
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
