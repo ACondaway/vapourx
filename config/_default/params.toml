@@ -131,7 +131,7 @@ mainSections = ["docs", "blog"]
     icon = "vapourx-clean.jpg"
     svgIcon = ""
     maskIcon = ""
-    maskIconColor = "white" # white (default)
+    maskIconColor = "transparent" # transparent (default)
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "vapourx-clean.jpg" # Logo of Organization — vapourx-clean.jpg

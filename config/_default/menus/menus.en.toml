@@ -3,7 +3,7 @@
   name = "VapourX"
   url = "/"
   weight = 1
-  pre = '<img src="/vapourx-logo.png" alt="VapourX Logo" style="height: 32px; width: auto; display: inline-block; vertical-align: middle;">'
+  pre = '<img src="/vapourx-logo-trans.png" alt="VapourX Logo" style="height: 32px; width: auto; display: inline-block; vertical-align: middle;">'
 
 # [[docs]]
 #   name = "Prologue"
