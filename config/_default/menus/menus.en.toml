@@ -35,11 +35,6 @@
   identifier = "lorem"
   url = "/tutorial/lorem/"
 
-[[main]]
-  name = "VapourX"
-  url = "/"
-  weight = 1
-  pre = '<img src="/vapourx-logo.png" alt="VapourX" style="height: 24px; width: auto; margin-right: 8px;">'
 
 [[main]]
   name = "Home"
