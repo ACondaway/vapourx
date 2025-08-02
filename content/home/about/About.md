@@ -23,7 +23,7 @@ VapourX 正在汇聚一群对具身智能充满热情的爱好者、专业人士
 ## ℹ️ 关于Logo
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/vapourx-clean.jpg" alt="VapourX Clean" style="max-width: 300px; width: 40%; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));">
+  <img src="https://github.com/ACondaway/vapourx/raw/main/assets/vapourx-clean.jpg" alt="VapourX Clean" style="max-width: 300px; width: 40%; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));">
 </div>
 
 VapourX 的标志凝聚了我们对未来具身智能的愿景与信念。左侧放射状的图形，灵感来自神经元网络与群体协作系统，象征着人类、数字人和机器人之间高度自然且动态的感知连接。中央文字以现代几何字体呈现，融合断裂与弧度的设计语言，传达出智能系统的有机性与进化性，而结尾的 “X” 则代表交互、未知与融合的前沿探索。整体黑白配色简洁而充满力量，彰显 VapourX 作为一个面向未来、连接现实与虚拟的具身智能社区，将科技、人性与协同创新无缝交织，激励我们共同走向智能交互的新纪元。
